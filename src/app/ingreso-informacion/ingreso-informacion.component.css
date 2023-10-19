@@ -1,0 +1,13 @@
+.btn{
+    background: #012b77;
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+}
+
+div.send-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}

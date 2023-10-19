@@ -1,0 +1,73 @@
+<div class="container">
+  <h1>Resumen de Cliente</h1>
+  <form>
+    <div class="form-group">
+      <label for="primerNombre">Primer Nombre</label>
+      <input
+        type="text"
+        id="primerNombre"
+        [(ngModel)]="primerNombre"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="segundoNombre">Segundo Nombre</label>
+      <input
+        type="text"
+        id="segundoNombre"
+        [(ngModel)]="segundoNombre"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="primerApellido">Primer Apellido</label>
+      <input
+        type="text"
+        id="primerApellido"
+        [(ngModel)]="primerApellido"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="segundoApellido">Segundo Apellido</label>
+      <input
+        type="text"
+        id="segundoApellido"
+        [(ngModel)]="segundoApellido"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="telefono">Teléfono</label>
+      <input
+        type="text"
+        id="telefono"
+        [(ngModel)]="telefono"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="direccion">Dirección</label>
+      <input
+        type="text"
+        id="direccion"
+        [(ngModel)]="direccion"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="ciudadResidencia">Ciudad de Residencia</label>
+      <input
+        type="text"
+        id="ciudadResidencia"
+        [(ngModel)]="ciudadResidencia"
+        class="form-control"
+      />
+    </div>
+    <div>
+      <button class="btn btn-primary" routerLink="/ingreso" type="button">
+        Volver
+      </button>
+    </div>
+  </form>
+</div>
