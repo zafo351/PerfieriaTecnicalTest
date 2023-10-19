@@ -41,9 +41,9 @@ build/
 /bazel-out
 
 # Node
-frontend/node_modules
-frontend/npm-debug.log
-frontend/yarn-error.log
+frontend/periferia-front/node_modules
+frontend/periferia-front/npm-debug.log
+frontend/periferia-front/yarn-error.log
 
 # IDEs and editors
 .idea/
@@ -66,10 +66,10 @@ frontend/yarn-error.log
 /.angular/cache
 .sass-cache/
 /connect.lock
-/coverage
-/libpeerconnection.log
+frontend/periferia-front/coverage
+frontend/periferia-front/libpeerconnection.log
 testem.log
-/typings
+frontend/periferia-front/typings
 
 # System files
 .DS_Store
